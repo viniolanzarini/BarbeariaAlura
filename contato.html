@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang = "pt-br" >
+
+	<meta charset = "utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+
+	<head>
+		<title>Contato - Barbearia Alura</title>
+	</head>
+<body>
+
+	<header>
+		
+		<div class = "caixa">
+
+		<h1><img src="logo.png" alt="Logo Da Barbearia Alura"></h1>
+
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="produtos.html">Produtos</a></li>
+				<li><a href="contato.html">Contato</a></li>
+			</ul>
+		</nav>
+
+		</div>
+
+	</header>
+
+	<main class="mainContato">
+		<form>
+
+			<fieldset class="field">
+				<label for="nome">Nome e Sobrenome</label>
+				<input type="text" id="nome" class="inputPadrao" required>
+
+				<label for="email">Endereço de Email</label>
+				<input type="email" id="email" class="inputPadrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="inputPadrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem" class="inputPadrao">
+			</textarea>
+
+			</fieldset>
+
+			<fieldset class="field">
+				<legend>Como prefere nosso contato?</legend>
+
+				<label for="email"><input type="radio" value="email" id="email" name="contato" required>Email</label>
+				
+				<label for="telefone"><input type="radio" value="telefone" id="telefone" name="contato" required>Telefonar</label>
+				
+
+				<label for="whatsapp"><input type="radio" value="whatsapp" id="whatsapp" name="contato" required>Whatsapp</label>
+				
+			</fieldset>
+
+			<fieldset class="field">
+				<legend id="pHorario">Qual horário prefere?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+			</fieldset>
+
+			<label><input type="checkbox" id="check" checked>Gostaria de receber novidades por email?</label>
+
+			<input type="submit" name="" class="enviar">
+		</form>
+
+		<table>
+
+			<thead>
+			<tr>
+				<th class="itemTabHead">
+					Dia
+				</th>
+				<th class="itemTabHead">
+					Horário de Funcionamento
+				</th>
+			</tr>
+			</thead>
+
+			<br>
+
+			<tbody>
+
+				<tr>
+					<td class="itemTabBody">
+						Segunda
+					</td>
+					<td class="itemTabBody">
+						08h ~ 20h
+					</td>
+				</tr>
+
+					<br>
+
+				<tr>
+					<td class="itemTabBody">
+						Terça
+					</td>
+					<td class="itemTabBody">
+						08h ~ 20h
+					</td>
+				</tr>
+
+					<br>
+
+				<tr>
+					<td class="itemTabBody">
+						Quarta
+					</td>
+					<td class="itemTabBody">
+						08h ~ 20h
+					</td>
+				</tr>
+
+			</tbody>
+		</table>
+	</main>
+
+
+			    <footer>
+		    	<img src="logo-branco.png" class="logoRodape">
+		        <p>&copy; Copyright Barbearia Alura 2019</p>
+
+		        <section class="redes">
+
+		        	
+				<a href="https://www.instagram.com/aluraonline/?hl=pt-br"><img src="https://image.flaticon.com/icons/png/128/408/408758.png" class="insta"></abbr>
+					 
+					 <a href="https://www.youtube.com/channel/UCo7EHzKF2zDFWszw7Dg4mPw"> <img src="https://image.flaticon.com/icons/png/128/1618/1618181.png" class="youtube"></abbr>
+					 	
+					 	<a href="https://www.facebook.com/AluraCursosOnline/"><img src="https://image.flaticon.com/icons/png/128/1384/1384863.png" class="facebook"></abbr>
+					 		
+					 		<a href="https://www.alura.com.br/"><img src="https://image.flaticon.com/icons/png/128/1450/1450169.png" class="site"></abbr>
+					 			
+					 			<a href="https://www.linkedin.com/school/aluracursos/"><img src="https://image.flaticon.com/icons/png/128/185/185964.png" class="linkedin"></abbr>
+
+					 				<a href="https://twitter.com/aluraonline"><img src="https://image.flaticon.com/icons/png/128/1312/1312142.png" class="twitter"></abbr>
+				   				</section>
+		    </footer>
+
+
+</body>
+</html>

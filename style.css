@@ -1,0 +1,298 @@
+body{
+	font-family: 'Montserrat', sans-serif; 
+}
+
+/* Css do cabeçalho */
+
+
+header{
+	background: #888888;
+	padding: 15px;
+}
+.caixa{
+	position: relative;
+	width: auto;
+	margin:0 auto;
+}
+nav {
+		position: absolute;
+		top: 110px;
+		right: 0;
+
+}
+
+nav li{
+	display: inline;
+	text-transform: uppercase;
+}
+nav a{
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+	font-size: 22px;
+}
+nav a:hover{
+	color: #C78C19
+}
+
+
+/*Css do produtos.html*/
+
+.produtos{
+	width: auto;
+	margin: 0 auto;
+}
+
+.produtos li{
+	display: inline-block;
+	text-align: center;
+	width: auto;
+	padding:50px 0; 
+	vertical-align: top;
+	border-radius: 10px;
+	border: 2px solid #000000;
+	margin: 1.5%;
+	box-sizing: border-box;
+}
+.produtos li:hover{
+	border-color: #C78C19;
+
+}
+.produtos li:active{
+	border-color: #088C19;
+}
+
+.produtos li:hover h2{
+	font-size: 33px;
+}
+.produtos h2{
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.descricao{
+	font-size: 18px;
+	font-weight: bold;
+}
+.preco{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top:  10px;
+}
+.preco:hover{
+	font-size: 27px;
+}
+
+/* Css do Index.html*/
+
+.back{
+	background: linear-gradient(#FEFEFE,#888888);
+}
+
+.principal{
+	background:#FEFEFE;
+	padding: 30px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 10px;
+	margin: 1em;
+	text-align: center;
+	box-shadow: inset 0px 0px 10px #000000;
+}
+
+.titulos-c{
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	margin: 10px 0px 10px 0px;
+	text-shadow: 2px 2px rgba(0,0,0,0.3);
+}
+.utensilios{
+	width: 120px;
+	float: left;
+	clear: left;
+	margin: 0px 10px 0px 10px;
+}
+.sobre{
+	text-align: center;
+}
+#missao {
+	font-size: 1.3em ;
+	font-style: italic;
+	font-weight: bold;
+}
+.mapa{
+	border: solid 2px black;
+	border-radius: 10px;
+	padding: 20px;
+	background: #FEFEFE;
+	box-shadow: inset 0px 0px 10px #000000;
+}
+.sobreMapa{
+	text-align: center;
+	margin: 15px;
+}
+.beneficios{
+	 background: #FEFEFE;
+	 padding: 20px;
+	 border-color: black;
+	 border-width: 2px;
+	 border-style: solid;
+	 border-radius: 10px;
+	 margin: 20px 0px;
+	 box-shadow: inset 0px 0px 10px #000000;
+}
+.video{
+	width: 560px;
+	margin: 1em auto;
+}
+.listaItens{
+	display: inline;
+	text-align: center;
+	width: 20%;
+	margin-right: 20%;
+	font-size: 19px;
+	margin: 0px 0px 10px 0px;
+}
+.itens:before{
+	content: "●"
+}
+.itens{
+	font-style: italic;
+	margin: 0px 0px 0px 10px;
+	padding: 10px;
+}
+.imgBeneficios{
+	margin: 15px;
+	width: 50%;
+}
+.indexMain{
+ margin: 30px;
+}
+
+/*Css do Contato.html*/
+.mainContato{
+	width: auto;
+	margin: 0 auto;
+}
+form{
+	margin: 40px 0px;
+}
+
+form label, form legend, #pHorario{
+	display: block;
+	font-size: 20px;
+	margin: 10px
+}
+
+.inputPadrao{
+	display: block;
+	margin: 20px;
+	border-radius:5px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+#check{
+	margin: 10px 0px;
+}
+.enviar{
+	width: 40%;
+	padding:10px 0px;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border-style: double;
+	border-radius: 8px;
+	transition: 0.5s all;
+	cursor: pointer;
+}
+.enviar:hover{
+	background: darkorange;
+	transform: scale(1.1);
+}
+table{
+	margin: 15px;
+}
+
+thead{
+	background: #555555
+	color:white;
+	font-weight: bold;
+}
+
+.itemTabHead{
+	padding: 0px 10px;
+}
+
+td,th{
+	border: solid #000000; 
+}
+
+.itemTabBody{
+	padding: 8px 20px;
+}
+
+/* Redes Sociais*/
+.redes{
+	display: inline;
+}
+
+.insta{
+	width:50px;
+    height:50px;
+}
+.youtube{
+	width:50px;
+    height:50px;
+}
+.facebook{
+	width:50px;
+    height:50px;
+}
+.site{
+	width:50px;
+    height:50px;
+}
+.twitter{
+	width:50px;
+    height:50px;
+}
+.linkedin{
+	width:50px;
+    height:50px;
+}
+/* Css do footer*/
+
+footer{
+	text-align: center;
+	background-image: url("bg.jpg");
+	padding: 30px;
+}
+
+footer p{
+	color: white;
+	font-size: 13px;
+	margin: 20px;	
+}
+
+/* Responsividade do site*/
+
+@media screen and (max-width: 480px){
+	.caixa, .principal, .beneficios, .mapa, .mainContato,.mainProd{
+		width: auto;
+		}
+	.video{
+		width: 90%;
+	}
+	h1, .mainProd{
+	text-align: center;
+	}
+	nav{
+		position: static;
+		text-align: center;
+	}
+}

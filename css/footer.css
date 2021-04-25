@@ -1,0 +1,75 @@
+/* Css do footer*/
+
+footer{
+	text-align: center;
+	background:#BB0E14;
+	padding: 30px;
+}
+
+footer p{
+	color: #F2F2F2;
+	font-size: 13px;
+	margin: 20px;	
+}
+
+/* Redes Sociais*/
+
+.redes{
+	display: inline;
+}
+
+.insta{
+	width:50px;
+    height:50px;
+}
+.insta:hover{
+	width: 60px;
+	height: 60px;
+	transition: 0.3s;
+	transition-duration: 0.3s;
+}
+.youtube{
+	width:50px;
+    height:50px;
+}
+.youtube:hover{
+	width: 60px;
+	height: 60px;
+	transition: 0.3s;
+}
+.facebook{
+	width:50px;
+    height:50px;
+}
+.facebook:hover{
+	width: 60px;
+	height: 60px;
+	transition: 0.3s;
+}
+.site{
+	width:50px;
+    height:50px;
+}
+.site:hover{
+	width: 60px;
+	height: 60px;
+	transition: 0.3s;
+}
+.twitter{
+	width:50px;
+    height:50px;
+}
+.twitter:hover{
+	width: 60px;
+	height: 60px;
+	transition: 0.3s;
+}
+.linkedin{
+	width:50px;
+    height:50px;
+}
+.linkedin:hover{
+	width: 60px;
+	height: 60px;
+	transition: 0.3s;
+}

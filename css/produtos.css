@@ -1,0 +1,54 @@
+/*Css do produtos.html*/
+
+.produtos{
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.prod{
+	display: inline-block;
+	text-align: center;
+	width: auto;
+	padding:50px 0; 
+	vertical-align: top;
+	align-items: center;
+	border-radius: 10px;
+	border: 2px solid #000000;
+	margin: 1.5%;
+	box-sizing: border-box;
+	list-style: none;
+}
+.prod:hover{
+	border-color: #0345A4;
+	transition: 0.3s;
+}
+.prod:active{
+	border-color: #BB0E14;
+	transition: 0.3s;
+}
+
+.prod:hover h2{
+	font-size: 33px;
+	transition: 0.3s;
+}
+.prod h2{
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#BB0E14;
+}
+.descricao{
+	font-size: 18px;
+	font-weight: bold;
+	color:#BB0E14;
+}
+.preco{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top:  10px;
+}
+.preco:hover{
+	font-size: 27px;
+	transition: 0.3s;
+}

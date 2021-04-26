@@ -1,6 +1,5 @@
 /* Css do cabeçalho */
 
-
 header{
 	background: #0345A4;
 	background-size: cover;
@@ -11,10 +10,22 @@ header{
 	width: auto;
 	margin:0 auto;
 }
+.logo{
+	width: 177px;
+	height: 250px;
+	-webkit-transition: 0.3s ease-in;
+	-moz-transition: 0.3s ease-in;
+	-o-transition: 0.3s ease-in;
+	transition: 0.3s ease-in;	
+}
+.logo:hover{
+	width: 197px;
+	height: 270px;
+}
 nav {
-		position: absolute;
-		top: 110px;
-		right: 0;
+	position: absolute;
+	top: 110px;
+	right: 0;
 }
 nav li{
 	display: inline;
@@ -26,8 +37,8 @@ nav a{
 	font-weight: bold;
 	padding: 5px;
 	font-size: 22px;
+	transition: 0.3s;
 }
 nav a:hover{
 	color: #BB0E14;
-	transition: 0.3s;
 }

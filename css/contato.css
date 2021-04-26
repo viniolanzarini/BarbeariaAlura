@@ -1,4 +1,5 @@
 /*Css do Contato.html*/
+
 .mainContato{
 	width: auto;
 	margin: 0 auto;
@@ -10,22 +11,27 @@ form{
 }
 .field{
 	text-align: center;
+	border-color: #767676;
+	transition: 0.3s;
+}
+.field :hover{
+	border-color: black;
 }
 label{
 	color: #BB0E14;
 }
-
 legend{
 	color: #BB0E14;
-
 }
 form label, form legend, #pHorario{
 	display: block;
 	font-size: 20px;
 	margin: 10px
-	
 }
-
+#corrigeEmail{
+	margin: 0% 35% 0 0;
+	font-size: 13px;
+}
 .inputPadrao{
 	display: block;
 	margin: 20px auto;
@@ -37,7 +43,9 @@ form label, form legend, #pHorario{
 	color: black;
 	margin: 0px 0px 10px 0px;
 } 
-
+.prefere:hover{
+	color: #0345A4;
+}
 #check{
 	margin: 10px 0px;
 }
@@ -52,6 +60,7 @@ form label, form legend, #pHorario{
 	border-radius: 8px;
 	transition: 0.5s all;
 	cursor: pointer;
+	transition: 0.3s;
 }
 .enviar:hover{
 	background:  #BB0E14;
@@ -66,8 +75,11 @@ table{
 
 thead{
 	background: #BB0E14;
+	transition: 0.3s;
 }
-
+thead:hover{
+	background: #0345A4;
+}
 .itemTabHead{
 	padding: 0px 10px;
 	color: #F2F2F2;

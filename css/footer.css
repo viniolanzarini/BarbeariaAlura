@@ -21,55 +21,54 @@ footer p{
 .insta{
 	width:50px;
     height:50px;
+	transition: 0.3s;
 }
 .insta:hover{
 	width: 60px;
 	height: 60px;
-	transition: 0.3s;
-	transition-duration: 0.3s;
 }
 .youtube{
 	width:50px;
     height:50px;
+	transition: 0.3s;
 }
 .youtube:hover{
 	width: 60px;
 	height: 60px;
-	transition: 0.3s;
 }
 .facebook{
 	width:50px;
     height:50px;
+	transition: 0.3s;
 }
 .facebook:hover{
 	width: 60px;
 	height: 60px;
-	transition: 0.3s;
 }
 .site{
 	width:50px;
     height:50px;
+	transition: 0.3s;
 }
 .site:hover{
 	width: 60px;
 	height: 60px;
-	transition: 0.3s;
 }
 .twitter{
 	width:50px;
     height:50px;
+	transition: 0.3s;
 }
 .twitter:hover{
 	width: 60px;
 	height: 60px;
-	transition: 0.3s;
 }
 .linkedin{
 	width:50px;
     height:50px;
+	transition: 0.3s;
 }
 .linkedin:hover{
 	width: 60px;
 	height: 60px;
-	transition: 0.3s;
 }
